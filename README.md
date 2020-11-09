@@ -14,19 +14,19 @@ yarn add use-react-router
 클릭하면 다른 주소로 이동시키는 컴포넌트                    
 <Link to="/">홈</Link>                     
 
-## URL Params
-/profiles/jhyounyaho  
-<Route path="/profiles/:username" component={Profile} />
+## URL Params                        
+/profiles/jhyounyaho                          
+<Route path="/profiles/:username" component={Profile} />                        
 
-## Query    
-/about?details=true
+## Query                            
+/about?details=true                        
 yarn add qs 라이브러리를 사용하면 쉽게 사용 할 수 있음. 
-const About = ({ location }) => {
-  const query = qs.parse(location.search, {
-    ignoreQueryPrefix: true
-  });
-
-## 서브라우트 
+const About = ({ location }) => {                                                
+  const query = qs.parse(location.search, {                        
+    ignoreQueryPrefix: true                        
+  });                        
+                                    
+## 서브라우트                         
 라우트 내부의 라우트를 만드는것            
 서비스에서 특정 라우트 내에 탭 같은것을 만들게 된다면, 단순히 state 로 관리하는 것 보다 서브 라우트로 관리를 하는 것을 권장 (setState 같은것을 할 필요 없음)             
                     
