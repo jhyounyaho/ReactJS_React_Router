@@ -19,8 +19,8 @@ yarn add use-react-router
 <Route path="/profiles/:username" component={Profile} />                        
 
 ## Query                            
-/about?details=true                        
-yarn add qs 라이브러리를 사용하면 쉽게 사용 할 수 있음. 
+/about?details=true                                                
+yarn add qs 라이브러리를 사용하면 쉽게 사용 할 수 있음.                                                                                     
 const About = ({ location }) => {                                                
   const query = qs.parse(location.search, {                        
     ignoreQueryPrefix: true                        
