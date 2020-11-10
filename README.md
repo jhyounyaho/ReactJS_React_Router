@@ -1,6 +1,7 @@
 # React Router                
 라우터를 사용하여 페이지 만들기              
-                    
+![routerimg](https://user-images.githubusercontent.com/42309919/98618140-dea3f480-2343-11eb-942e-4041c580d2fb.png)                
+                                
 ## 설치한 라이브러리           
 yarn add react-router-dom                              
 yarn add qs                       
