@@ -58,5 +58,9 @@ Route Config: JSX 형태로 라우트를 선언하는 것이 아닌 Angular 나 
 Memory Router 실제로 주소는 존재하지는 않는 라우터. 리액트 네이티브나, 임베디드 웹앱에서 사용하면 유용하다.                                    
 >
 
-                        
+## 결과화면                    
+![router1](https://user-images.githubusercontent.com/42309919/98783365-c9f75780-243c-11eb-9f7c-702a81b1d24f.PNG)            
+![router2](https://user-images.githubusercontent.com/42309919/98783367-ca8fee00-243c-11eb-9574-89c9e36273b6.PNG)            
+![router3](https://user-images.githubusercontent.com/42309919/98783368-cb288480-243c-11eb-91a9-0b01e3feea25.PNG)            
 
+            
