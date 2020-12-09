@@ -13,7 +13,7 @@ yarn add use-react-router
                       
 ## Link                    
 클릭하면 다른 주소로 이동시키는 컴포넌트                    
-<Link to="/">홈</Link>                     
+<Link to="/">홈</Link>                       
 
 ## URL Params                        
 /profiles/jhyounyaho                          
